@@ -1,9 +1,11 @@
 const repeatString = function(string, num) {
     let i = 0;
+    let print = ""
     while (i < num) {
-        console.log(string)
+        print = print + string;
         i ++;
-    } 
+    }
+    return print
 };
 
 // Do not edit below this line
