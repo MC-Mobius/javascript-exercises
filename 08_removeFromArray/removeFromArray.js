@@ -1,6 +1,4 @@
 const removeFromArray = function(array, ...unwanted) {
-    console.log(array);
-    console.log(unwanted);
 
     const modifiedArray = [];
 
@@ -10,7 +8,6 @@ const removeFromArray = function(array, ...unwanted) {
         }
     })
 
-    console.log(array);
     return modifiedArray;
 };
 
