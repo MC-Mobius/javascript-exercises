@@ -26,8 +26,6 @@ const sumAll = function(first, second) {
             greater = first;
     }
     }
-    console.log(lesser)
-    console.log(greater)
 
 
     for (i = lesser; i <= greater; i++) {
