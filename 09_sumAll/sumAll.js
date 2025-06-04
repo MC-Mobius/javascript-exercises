@@ -4,14 +4,27 @@ const sumAll = function(first, second) {
     let greater
     let lesser 
     
-    if (first < second) {
+    if (first < 0 | second < 0) {
+        return "ERROR"
+    }
+
+    else if (typeof first !== "number" | typeof second !== "number") {
+        return "ERROR"
+    }
+
+    else {
+        if (first < second) {
         lesser = first;
         greater = second;
     }
-    else {
-        lesser = second;
-        greater = first;
+        else {
+            lesser = second;
+            greater = first;
     }
+    }
+    console.log(lesser)
+    console.log(greater)
+
 
     for (i = lesser; i <= greater; i++) {
         sum = sum + i;
