@@ -12,6 +12,10 @@ const sumAll = function(first, second) {
         return "ERROR"
     }
 
+    else if (Number.isInteger(first) !== true | Number.isInteger(second !== true)) {
+        return "ERROR"
+    }
+
     else {
         if (first < second) {
         lesser = first;
